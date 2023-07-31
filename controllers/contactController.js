@@ -1,6 +1,6 @@
 exports.contact = (req, res) => {
 	res.render('contact', {
-		title: 'Dynamic ramdom number being created from controller folder',
+		title: 'Dynamic random number being rendered from controller folder',
 		value: Math.random(),
 	});
 };
