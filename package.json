@@ -1,0 +1,23 @@
+{
+	"name": "filedownloadapp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "Pedro Ivo <pedroivolima0@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"ejs": "^3.1.9",
+		"express": "^4.18.2",
+		"mysql": "^2.18.1"
+	},
+	"devDependencies": {
+		"body-parser": "^1.20.2",
+		"nodemon": "^3.0.1"
+	}
+}
